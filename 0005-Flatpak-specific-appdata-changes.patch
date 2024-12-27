@@ -11,7 +11,7 @@ diff --git a/com.github.davetheunsub.clamtk.appdata.xml b/com.github.davetheunsu
 index 231cee6..58385b4 100644
 --- a/com.github.davetheunsub.clamtk.appdata.xml
 +++ b/com.github.davetheunsub.clamtk.appdata.xml
-@@ -1,8 +1,8 @@
+@@ -1,8 +1,11 @@
  <?xml version="1.0" encoding="UTF-8"?>
  <!-- Copyright 2022 Dave M <dave.nerd@gmail.com> -->
  <component type="desktop-application">
@@ -19,10 +19,13 @@ index 231cee6..58385b4 100644
 - <launchable type="desktop-id">clamtk.desktop</launchable>
 + <id>com.gitlab.davem.ClamTk</id>
 + <launchable type="desktop-id">com.gitlab.davem.ClamTk.desktop</launchable>
++ <developer id="com.gitlab.davem">
++  <name>dave_m</name>
++ </developer>
   <metadata_license>FSFAP</metadata_license>
   <project_license>GPL-2.0+</project_license>
   <name>ClamTk</name>
-@@ -94,6 +94,7 @@
+@@ -94,6 +97,7 @@
        </description>
      </release>
    </releases>
